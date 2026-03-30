@@ -1,4 +1,4 @@
-FROM ghcr.io/openclaw/openclaw:latest
+FROM ghcr.io/openclaw/openclaw:latest@sha256:5900559f795ef15ea2f0b1fc488726d9b27bb2de398424c14d13c9b1f1ff0d66
 
 ENV OPENCLAW_HOME=/home/node/.openclaw
 ENV PORT=18789
